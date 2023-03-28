@@ -12,8 +12,8 @@ pipeline {
             steps {
                 dir('todo-app') {
                     sh 'npm install'
-                    sh 'npm run test:unit --headless'
-                    sh 'npm run test:e2e --headless'
+                    sh 'npm run test:unit'
+                    sh 'npm run test:e2e'
                 }
             }
         }
