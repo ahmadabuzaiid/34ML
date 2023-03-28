@@ -11,9 +11,9 @@ pipeline {
         stage('Test') {
             steps {
                 dir('todo-app') {
-                    sh 'npm install'
-                    sh 'npm run test:unit'
-                    sh 'npm run test:e2e'
+                    sh 'npm install --no-deprecated --omit=optional'
+                    sh 'npm run test:unit --headless'
+                    sh 'npm run test:e2e --headless'
                 }
             }
         }

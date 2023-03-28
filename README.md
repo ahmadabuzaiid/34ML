@@ -13,6 +13,9 @@
 6) Wait about 1 min, till Jenkins server run.
 7) Open your browser @ "localhost:8080"
 8) Enter the secret password, you can find it in docker logs first time.
+#### Note
+- You can find the password using this command "cat /var/jenkins_home/secrets/initialAdminPassword"
+
 9) Install the default packages.
 10) Setup a new user. (optional)
 11) Create an item
