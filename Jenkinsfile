@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('todo-app') {
-                    sh 'npm install --ignore-scripts'
+                    sh 'npm install --ignore-scripts --no-optional'
                     sh 'npm run test:unit --headless'
                     sh 'npm run test:e2e --headless'
                 }
