@@ -19,7 +19,7 @@
 9) Install the default packages.
 10) Setup a new user. (optional)
 11) Create an item
-12) Give it a name. (any name), with type pipelin.
+12) Give it a name. (any name), with type pipeline.
 13) Go down till pipeline section, from the Definition dropbox, choose "Pipeline script from SCM".
 14) Then from the SCM dropbox, choose "Git".
 15) Paste the repo url in the "Repository URL" field.
